@@ -1,0 +1,33 @@
+### List
+GET http://localhost:3000/developers
+
+
+### get developer
+GET http://localhost:3000/developers/dev_O_icxgAzSf9ewaY-sxGXZ
+
+
+### POST developer
+POST http://localhost:3000/developers
+Content-Type: application/json
+
+{
+  "name": "Martina Strautz",
+  "email": "martina@bla.com",
+  "dateOfBirth": "1989-01-05"
+}
+
+
+### PATCH developer
+PATCH http://localhost:3000/developers/dev_O_icxgAzSf9ewaY-sxGXZ
+Content-Type: application/json
+
+{
+  "name": "Josh Thompson 2",
+  "email": "bla@bla.com",
+  "dateOfBirth": "1985-01-05"
+}
+
+
+
+### DELETE developer
+DELETE http://localhost:3000/developers/dev__KhnpVwiy-4c-foveddL1
